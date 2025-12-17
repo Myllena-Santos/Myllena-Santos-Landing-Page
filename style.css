@@ -6,15 +6,20 @@
 }
 
 :root {
-    --white: #fff;
-    --dark1: #34344e;
-    --dark2: #3a415a;
-    --dark3: #566981;
-    --dark4: #89a7b1;
-    --dark5: #cbdad5;
-    --dark6: #2f2f46;
+    --white: #ffffff;
+
+    /* Tons escurecidos */
+    --dark1: #1e1e2f; 
+    --dark2: #25253a;
+    --dark3: #2f3a4d;
+    --dark4: #4a5a66;
+    --dark5: #7a8a91;
+    --dark6: #171724;
+
+    /* Cyan mais escuro */
     --cyan1: #70e3ea;
 }
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -70,12 +75,12 @@ nav {
     text-decoration: underline;
 }
 
-.box-btn-actions {
+.btn-actions {
     display: flex;
     gap: 1rem;
 }
 
-:is(button, .link-action) {
+.link-action {
     padding: .6rem;
     font-size: .9rem;
     border-radius: 6px;
@@ -142,7 +147,7 @@ strong {
     color: var(--white);
     max-width: 400px;
     color: var(--white);
-    text-align: justify;
+    text-align: left;
 }
 
 .box-img-main {
@@ -214,7 +219,7 @@ strong {
 .third-section>div p {
     max-width: 600px;
     color: var(--white);
-    text-align: justify;
+    text-align: left;
 }
 
 footer {
